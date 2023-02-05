@@ -25,7 +25,7 @@ export default function Signup() {
     <Box sx={{ display: "flex", flexDirection:"column", justifyContent: "center", alignItems:"center", height:"100%", backgroundColor:"#141b2d"}}>
 
     <h2 style={{color:"#ffffff", fontFamily:"sans-serif"}}>Signup Template</h2>
-    <Box sx={{ display: 'flex', backgroundColor:"#ffffff", flexWrap: 'wrap', width: "60%", height:"70%", justifyContent: "center", paddingTop:"50px", boxShadow:"0px 0px 40px #000000" }}>
+    <Box sx={{ display: 'flex', backgroundColor:"#ffffff", flexWrap: 'wrap', width: "60%", height:"70%", justifyContent: "center", padding:"50px", boxShadow:"0px 0px 40px #000000", borderRadius:"15px" }}>
       <div>
         <TextField
           label="With normal TextField"

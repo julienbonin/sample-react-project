@@ -23,7 +23,7 @@ const Notebook = () => {
         </Box>
         
     
-        <Box overflow="scroll"  display="flex" flexDirection="column" justifyContent="left" alignItems="center" width="80%" height="100%" paddingRight="100px"  >
+        <Box overflow="scroll"  display="flex" flexDirection="column" justifyContent="left" alignItems="center" width="90%" height="100%" paddingRight="100px"  >
         
         <Box width="100%" paddingTop="10px">
         <h4>Library Imports</h4>
@@ -144,7 +144,7 @@ for step in range(numberOfSteps+1): \n \
         ax.plot_wireframe(mg.xx, mg.yy, U[new]) \n \
         ax.set_title('t=%5.2f'%tnew) \n \
         ax.set_zlim([0,1]) \n \
-        fig.savefig('Frame%03d.png' %nplot,dpi=300)                   "}
+        fig.savefig('Frame%03d.png' %nplot,dpi=300)"}
         </SyntaxHighlighter>
         </Box>
         </Box>
